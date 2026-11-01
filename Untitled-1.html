@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Interactive Event Playground
+    </title>
+</head>
+<body>
+    <h1>Interactive Event Playground</h1>
+    <div class="section">
+        <h2>Button</h2>
+        <button id="btn-color">change color</button>
+        <button id="btn-message">message</button>
+        <button id="btn-counter">counter(<span id="count-val">0</span>)</button>
+        <div id="message-display" class="dis"></div>
+
+    </div>
+    <div class="section">
+        <h2>Input</h2>
+        <input type="text" id="text-input" placeholder="Type something...">
+        <p> message<span id="live-text"></span></p> 
+        <p>counter <span id="char-count">0</span></p>
+    </div>
+    <div class="boox">
+        <h2>Mouse Event</h2>
+        
+          <div id="mouse-box" class="box"> 
+            <p id="click"> click me</p> </div>
+        
+
+    </div>
+    <div class="key">
+        <h2>keyboard</h2>
+        <p>press any key on your keyboard</p>
+        <div class="key-display"> Key pressed<span id="pressed-key"></span> </div>
+
+    </div>
+    <script src="event.js"></script>
+
+
+</body>
+</html>
